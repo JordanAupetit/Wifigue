@@ -7,12 +7,14 @@ CREATE TABLE Produit
 	primary key(idProduit)
 	
 );
+
 CREATE TABLE Tag
 (
 	idTag INTEGER AUTO_INCREMENT,
 	nomTag VARCHAR(100),
 	primary key(idTag)
 );
+
 CREATE TABLE Affect
 (
 	idAffect INTEGER AUTO_INCREMENT,
@@ -28,12 +30,14 @@ CREATE TABLE Affect
 		REFERENCES Produit(idProduit)
 	
 );
+
 CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
 	nomQuestion VARCHAR(100),
 	primary key(idQuestion)
 );
+
 CREATE TABLE Reponse
 (
 -- idReponse 5 pourrait etre par exemple la saisie d'un entier pour un prix
@@ -45,6 +49,7 @@ CREATE TABLE Reponse
 		foreign key(idTag) 
 		REFERENCES Tag(idTag)
 );
+
 CREATE TABLE ReponseQuestion
 (
 	idRelation INTEGER AUTO_INCREMENT,

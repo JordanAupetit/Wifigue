@@ -43,7 +43,7 @@ CREATE TABLE Reponse
 -- idReponse 5 pourrait etre par exemple la saisie d'un entier pour un prix
 	idReponse INTEGER AUTO_INCREMENT,
 	nomReponse VARCHAR(100),
-	idTag INTEGER,
+	
 	primary key(idReponse),
 	CONSTRAINT fk_idTag
 		foreign key(idTag) 
@@ -55,13 +55,17 @@ CREATE TABLE ReponseQuestion
 	idRelation INTEGER AUTO_INCREMENT,
 	idQuestion INTEGER,
 	idReponse INTEGER,
+	idTag INTEGER,
 	primary key(idRelation),
 	CONSTRAINT fk_idQuestion
 		foreign key(idQuestion) 
 		REFERENCES Question(idQuestion),
 	CONSTRAINT fk_idReponse
 		foreign key(idReponse) 
-		REFERENCES Reponse(idReponse)
+		REFERENCES Reponse(idReponse),
+	CONSTRAINT fk_idTag
+		foreign key(idTag) 
+		REFERENCES Tag(idTag)
 );
 
 
