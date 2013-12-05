@@ -6,6 +6,6 @@
 
 </head>
 <body>
-	<p>Wifigue</p>
+	<p>Wifigue : <?php echo $message; ?></p>
 </body>
 </html> 
