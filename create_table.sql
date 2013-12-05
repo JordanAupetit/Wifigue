@@ -31,7 +31,11 @@ CREATE TABLE Reponse
 -- idReponse 5 pourrait etre par exemple la saisie d'un entier pour un prix
 	idReponse INTEGER AUTO_INCREMENT,
 	nomReponse VARCHAR(100),
-	primary key(idReponse)
+	idTag INTEGER,
+	primary key(idReponse),
+	CONSTRAINT fk_idTag
+		foreign key(idTag) 
+		REFERENCES Tag(idTag)
 );
 CREATE TABLE ReponseQuestion
 (

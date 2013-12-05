@@ -2,7 +2,7 @@
 
 //Fichier servant à la connexion.
 
-define('SERVER',"dbserver.emi.u-bordeaux1.fr");
+define('SERVER',"emi.u-bordeaux1.fr");
 define('LOGIN',"pauhally");
 define('PASSWORD',"wifiguesbase");
 define('DATABASE',"pauhally");

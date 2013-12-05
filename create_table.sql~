@@ -23,13 +23,15 @@ CREATE TABLE Affect
 CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
-	nomQuestion VARCHAR(100)
+	nomQuestion VARCHAR(100),
+	primary key(idQuestion)
 );
 CREATE TABLE Reponse
 (
 -- idReponse 5 pourrait etre par exemple la saisie d'un entier pour un prix
 	idReponse INTEGER AUTO_INCREMENT,
-	nomReponse VARCHAR(100)
+	nomReponse VARCHAR(100),
+	primary key(idReponse)
 );
 CREATE TABLE ReponseQuestion
 (
