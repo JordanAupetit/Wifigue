@@ -41,8 +41,8 @@
 $route['default_controller'] = "frontend";
 $route['404_override'] = '';
 
-$route[''] = 'frontend';
-$route['accueil'] = 'frontend/index';
+//$route[''] = 'frontend';
+//$route['message'] = 'frontend/message';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
