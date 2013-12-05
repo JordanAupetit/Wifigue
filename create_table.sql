@@ -44,10 +44,8 @@ CREATE TABLE Reponse
 	idReponse INTEGER AUTO_INCREMENT,
 	nomReponse VARCHAR(100),
 	
-	primary key(idReponse),
-	CONSTRAINT fk_idTag
-		foreign key(idTag) 
-		REFERENCES Tag(idTag)
+	primary key(idReponse)
+	
 );
 
 CREATE TABLE ReponseQuestion
