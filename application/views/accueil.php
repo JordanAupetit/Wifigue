@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Accueil</title>
+    <title>Wifigue</title>
 
 </head>
 <body>
-    <p>WIFIGUE en force !!</p>
+	<p>Wifigue</p>
 </body>
 </html> 
