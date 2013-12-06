@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title>Titre</title>
@@ -24,46 +24,29 @@
 	</div>
 	
 	<div class="container">
-	
-		<div class="center-block" style="padding: 50px;">
+	 
+		<div id="corps-block" class="center-block" style="padding: 50px;">
 			<div class="page-header">
 				<h1>Comment ça marche ?</h1>
 			</div>
 			<div>
-				<h2></h2>
-				<p></p>
-			</div>
-			
-			<!--
-			<p>
-				<div class="page-header">
-					<h1>Avez-vous un chien ?</h1>
-				</div>
+				<h2>Un cadeau qui vous ressemble</h2>
+				<p>Nous allons apprendre à vous connaître en vous posant plusieurs questions. Au fur et à mesure de vos réponses, la recherche va s'affiner.</p>
+				<p>
+					A chaque étape, 4 produits vous sont proposés. En cliquant dessus vous serez redirigés vers un site marchant. S'ils vous plaisent sans être un coup de coeur, likez les pour que des produits similaires vous soient proposés. 
+					Si le produit ne vous plait pas disliké le, nous vous le proposerons plus.
+				</p>
 				
-				<form class="form-horizontal" role="form">
-					<div style="padding: 50px;">
-						<div class="radio">
-							<label>
-								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-								Oui
-							</label>
-						</div>
-						<div class="radio">
-							<label>
-								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-								Non
-							</label>
-						</div>
-					</div>
-				</form>			
-			</p>
-			<p style="float: right;">
-				<button type="button" class="btn btn-default">Passer</button>
-				<button type="button" class="btn btn-success">Suivant</button>
-			</p>
-			
-			-->
-		</div>		
+				<h2>Et ma vie privée alors ?</h2>
+				<p>Le site ne stocke aucune information sur vous.</p>
+				<p>
+					Nous proposons seulement un service et non le produit final. Nous vous renverrons vers un site marchant qui lui vous proposera d'acheter un article. Aucune information concernant votre achat n'est stockée sur nos serveurs.
+				</p>
+				<div style="padding: 50px 150px 0px 150px;">
+					<button onclick="" type="button" class="btn btn-success btn-lg btn-block">C'est parti !</button>
+				</div>
+			</div>
+		</div>	
 		
 		<div class="foot">
 			<div class="page-header">
