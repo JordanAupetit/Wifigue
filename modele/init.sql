@@ -1,12 +1,13 @@
 
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Stylo','Stylo bic',2);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('PC Portable','Pc portable 15 pouces',200);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Gomme','Gomme Uhu',1);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Clé USB','cle usb ',20);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Casque Audio','case bose',150);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Redbull','donne des ailes',3);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Café','j\'aime le ricoré',1);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Salade','Gomme Uhu',2);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Stylo','Stylo bic','http://www.clipart-fr.com/data/clipart/bureau/bureau_163.jpg',2);
+
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('PC Portable','Pc portable 15 pouces','http://upload.maieutapedia.org/picture/dv9000_11289064011.jpg',200);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Gomme','Gomme Uhu','http://www.az-fournitures.com/media/catalog/product/cache/6/image/800x800/9df78eab33525d08d6e5fb8d27136e95/g/o/gomme-maped.jpg',1);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Clé USB','cle usb ','http://www.reference-pc.fr/wp-content/uploads/2010/02/windows7-cleusb.jpg',20);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Casque Audio','case bose','http://i2.cdscdn.com/pdt2/3/1/n/1/700x700/pionsemj531n/rw/pioneer-se-mj531-casque-audio.jpg',150);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Redbull','donne des ailes','http://1.bp.blogspot.com/-jQBq5Qbs_m4/UFsrhAhh3cI/AAAAAAAAAQc/h36iJdCEOBI/s1600/b5dba_62106568red-bull-jpg.jpg',3);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Café','j\'aime le ricoré','http://www.chacunsoncafe.fr/Files/18051/Img/24/cafe--769--grains.jpg',1);
+INSERT INTO Produit(nomProduit,description,url,prixProduit) VALUES('Salade','Gomme Uhu','http://www.saveursparisidf.com/uploads/RTEmagicC_P-Salade.jpg.jpg',2);
 
 INSERT INTO Question(nomQuestion) VALUES('Quel est le sexe de la personne voulant acquérir le produit ?');
 INSERT INTO Question(nomQuestion) VALUES('Quel est votre budget ?');

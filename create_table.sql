@@ -3,6 +3,7 @@ CREATE TABLE Produit
 	idProduit INTEGER AUTO_INCREMENT,
 	nomProduit VARCHAR(30),
 	description VARCHAR(1000),
+	url VARCHAR(1000),
 	prixProduit INTEGER,
 	primary key(idProduit)
 	
@@ -35,7 +36,7 @@ CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
 	nomQuestion VARCHAR(100),
-	primary key(idQuestion),
+	primary key(idQuestion)
 	
 );
 
