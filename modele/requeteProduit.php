@@ -21,4 +21,14 @@ function getIndice($idTag){
 	$reponse=mysql_query($req);
 	return $reponse;
 }
+
+function getResponseByQuestion($idQuestion){
+	$req='SELECT idReponse,nomReponse From Reponse 
+		INNER JOIN ReponseQuestion
+		ON Reponse.idReponse=ReponseQuestion.idReponse
+		Where ReponseQuestion.idQuestion="'.$idReponse.'"';
+        $reponse=mysql_query($req);
+	return $reponse;
+	
+}
 ?>
