@@ -3,6 +3,7 @@ CREATE TABLE Produit
 	idProduit INTEGER AUTO_INCREMENT,
 	nomProduit VARCHAR(30),
 	description VARCHAR(1000),
+	url VARCHAR(1000),
 	prixProduit INTEGER,
 	primary key(idProduit)
 	
@@ -34,12 +35,9 @@ CREATE TABLE Affect
 CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
-	idTag INTEGER,
 	nomQuestion VARCHAR(100),
 	primary key(idQuestion),
-	CONSTRAINT fk_idTag2
-		foreign key(idTag) 
-		REFERENCES Tag(idTag)
+	
 );
 
 CREATE TABLE Reponse

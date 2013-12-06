@@ -14,4 +14,11 @@ function getIdTag($idReponse){
 	return $reponse;
 
 }
+
+function getIndice($idTag){
+
+	$req='SELECT indice From Affect Where idTag="'.$idTag.'"';
+	$reponse=mysql_query($req);
+	return $reponse;
+}
 ?>
