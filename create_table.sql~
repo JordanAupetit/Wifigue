@@ -34,8 +34,12 @@ CREATE TABLE Affect
 CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
+	idTag INTEGER,
 	nomQuestion VARCHAR(100),
-	primary key(idQuestion)
+	primary key(idQuestion),
+	CONSTRAINT fk_idTag2
+		foreign key(idTag) 
+		REFERENCES Tag(idTag)
 );
 
 CREATE TABLE Reponse
@@ -44,7 +48,7 @@ CREATE TABLE Reponse
 	idReponse INTEGER AUTO_INCREMENT,
 	nomReponse VARCHAR(100),
 	
-	primary key(idReponse),
+	primary key(idReponse)
 	
 );
 

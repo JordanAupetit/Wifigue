@@ -35,7 +35,8 @@ CREATE TABLE Question
 (
 	idQuestion INTEGER AUTO_INCREMENT,
 	nomQuestion VARCHAR(100),
-	primary key(idQuestion)
+	primary key(idQuestion),
+	
 );
 
 CREATE TABLE Reponse
