@@ -1,0 +1,22 @@
+<?php
+
+require("../modele/connexionbase.php");
+
+function selectionnerProduits($tableauReponse){
+	
+	foreach($tableauReponse as $element)
+	{
+	   
+		$req='SELECT idQuestion FROM Question Where nomQuestion="'.$element.'"' ;
+		$idQ=mysql_query($req);
+		$req2='SELECT idTag FROM ReponseQuestion Where idQuestion="'.$idQ.'"' ;
+		$idTag=mysql_query($req2);
+		$req3='SELECT indice FROM Affect Where idQuestion="'.$idTag.'"' ;
+		$indice=mysql_query($req3);
+		?><script> alert("<?php echo $indice; ?> ");  </script><?php
+	}
+
+
+}
+
+?>
