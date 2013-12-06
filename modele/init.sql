@@ -111,10 +111,10 @@ INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(2,5,5);
 INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(2,6,6);
 
 /* Correlation question 1 avec ses reponses */
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,7,7);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,8,8);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,9,9);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,10,10);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,7,7);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,8,8);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,9,9);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,10,10);
 
 /* Correlation question 4 avec ses reponses */
 INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(4,11,11);
