@@ -1,7 +1,14 @@
 
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('stylo','stylo BIC rouge',2);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Pc portable','Pc portable 15 pouces',200);
-INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('gomme','gomme surper cool',1);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Stylo','Stylo bic',2);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('PC Portable','Pc portable 15 pouces',200);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Gomme','Gomme Uhu',1);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Clé USB','cle usb ',20);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Casque Audio','case bose',150);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Redbull','donne des ailes',3);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Café','j\'aime le ricoré',1);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Smartphone Sony Xperia Z1','hum',650);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Mug','',5);
+INSERT INTO Produit(nomProduit,description,prixProduit) VALUES('Salade','Gomme Uhu',2);
 
 INSERT INTO Question(nomQuestion) VALUES('Quel est le sexe de la personne voulant acquérir le produit ?');
 INSERT INTO Question(nomQuestion) VALUES('Quel est votre budget ?');
@@ -111,10 +118,10 @@ INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(2,5,5);
 INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(2,6,6);
 
 /* Correlation question 1 avec ses reponses */
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,7,7);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,8,8);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,9,9);
-INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(1,10,10);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,7,7);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,8,8);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,9,9);
+INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(3,10,10);
 
 /* Correlation question 4 avec ses reponses */
 INSERT INTO ReponseQuestion(idQuestion,idReponse,idTag) VALUES(4,11,11);
